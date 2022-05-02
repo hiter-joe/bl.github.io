@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bing Li PhD"
+title                    : "Pin Shuai, PhD"
 title_separator          : "-"
-name                     : &name "Bing Li"
-description              : &description "Postdoc @PNNL"
-url                      : https://hiter-joe.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Pin Shuai"
+description              : &description "Earth Scientist @PNNL"
+url                      : https://pinshuai.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "bl.github.io"
+repository               : "pinshuai.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -75,20 +75,19 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          :  "UA-156022150-1"
 
 
 # Site Author
 author:
-  name             : "Bing Li"
+  name             : "Pin Shuai"
   avatar           : "profile.jpg"
-  bio              : "Postdoc @PNNL"
-  location         : "Seattle, WA"
+  bio              : "Earth Scientist @PNNL"
+  location         : "Richland, WA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=KXyD5AUAAAAJ&hl=en"
-  email            : "bing.li@pnnl.gov"
-  researchgate     :  # example: "https://www.researchgate.net/profile/Bing-Li-114"
+  googlescholar    : "https://scholar.google.com/citations?user=Md_6je0AAAAJ&hl=en"
+  email            : "Pin.Shuai@pnnl.gov"
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +95,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "hiter-joe"
+  github           : "pinshuai"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "bing-li-1b7b46108"
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "pshuai"
+  orcid            : "https://orcid.org/0000-0003-2511-9828"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "BingLi65392530"
+  twitter          : "pinshuai"
   vine             :
   weibo            :
   xing             :
@@ -129,23 +127,22 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
   - Capfile
+  - CHANGELOG
+  - config
   - Gemfile
   - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
   - gulpfile.js
+  - LICENSE
   - log
   - node_modules
   - package.json
+  - Rakefile
+  - README
   - tmp
-  - vendor
 keep_files:
   - .git
   - .svn
@@ -175,6 +172,9 @@ kramdown:
 
 # Collections
 collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
@@ -196,7 +196,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -206,6 +206,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
