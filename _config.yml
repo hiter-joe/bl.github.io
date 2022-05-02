@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Pin Shuai, PhD"
+title                    : "Bing Li, PhD"
 title_separator          : "-"
-name                     : &name "Pin Shuai"
-description              : &description "Earth Scientist @PNNL"
+name                     : &name "Bing Li"
+description              : &description "Postdoc @PNNL"
 url                      : https://hiter-joe.github.io/bl.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bl.github.io"
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Pin Shuai"
+  name             : "Bing Li"
   avatar           : "profile.jpg"
-  bio              : "Earth Scientist @PNNL"
+  bio              : "Postdoc @PNNL"
   location         : "Richland, WA"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=Md_6je0AAAAJ&hl=en"
-  email            : "Pin.Shuai@pnnl.gov"
+  email            : "bing.li@pnnl.gov"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -95,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "pinshuai"
+  github           : "hiter-joe"
   google_plus      :
   keybase          :
   instagram        :
