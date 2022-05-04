@@ -11,9 +11,12 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.E. Marine and offshore Engineering, Harbin Institute of Technology (Weihai), China, 2014
+* M.E. Design and Manufacture of ship and Ocean Structure, Dalian University of Technology, China, 2017
+* Ph.D student in Engineering Science and Mechanics, The Pennsylvania State University, USA, 2018
+* Ph.D Civil and Environmental Engineering, The Pennsylvania State University, USA, 2021
+
+ 
 
 Work experience
 ======
@@ -35,6 +38,15 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
+
+Awards
+======
+* 2017 Graduate Fellowship in Engineering, PSU, USA ($1,500).
+* 2016 Outstanding graduate student of DUT, China.
+* 2015 Class NK Scholarship, Japan. 
+* 2014 Outstanding Graduate of Shandong Province, China 
+* 2013 Grand Prize in the group of New-Concept Innovation, 2nd prize in the group of Vehicle Design and  Production,  2nd  prize in the group of  Model  Appearance Simulation and Production in the National Competition on Marine Vehicle Design and Production. China
+* 2011China National Scholarship
 
 Publications
 ======
