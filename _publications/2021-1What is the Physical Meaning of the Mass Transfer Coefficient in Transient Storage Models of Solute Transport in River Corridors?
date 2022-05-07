@@ -1,0 +1,8 @@
+---
+title: "What is the Physical Meaning of the Mass Transfer Coefficient in Transient Storage Models of Solute Transport in River Corridors?"
+collection: publications
+permalink: /publication/2021-10-01-What is the Physical Meaning of the Mass Transfer Coefficient in Transient Storage Models of Solute Transport in River Corridors?
+
+paperurl: 'https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/905390'
+Abstract: 'As a key parameter used in transient storage models (TSMs), the mass transfer coefficient α affects flow and solute exchange between the main channel and storage zone. In previous studies, the value of α was calculated by fitting the breakthrough curves (BTCs) from field tracer data, which may contain a large amount of uncertainty. More importantly, the long tail of BTCs where hyporheic exchange manifests itself and plays the dominant role is difficult to measure. Thus, although the α coefficient has a clear definition, it is not widely used in practice. In this study, we use the newly developed model hyporheicFoam to simulate bi-directional hyporheic exchange fluxes (HEFs) and solute transport within a kilometer-long river-hyporheic zone system (R-HZs). The simulation results show a second peak on the long tail of BTCs which is missed in most TSMs. The second peak is caused by the delay effect of the HZs. Although small in magnitude, it affects the accuracy of the important transfer coefficient value. For better prediction, directly using the simulated HEFs results, this work proposes a simple and practical method to calculate α. In future studies, combining the empirical relationship between HEFs and key properties, the new formula can be used to predict HEFs at different scales..'
+---
