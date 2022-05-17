@@ -16,8 +16,11 @@ Please update all input decks to use it.
 To run ats: 
 
 * ssh to pinklady
-cd /software/hamm495
-source env_ats_master.sh
+* cd /software/hamm495
+* (alt ats-master env_ats_master.sh lib)
+* source env_ats_master.sh
+* ![ssh_source](https://user-images.githubusercontent.com/21980320/168872974-dc36357d-c1b8-4bfb-a53e-b2b5b626aa13.png)
+
 
 If you can not do source with an error source: not found. 
 Please check the shell you used by env | grep SHELL.
