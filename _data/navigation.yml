@@ -7,7 +7,7 @@ main:
     url: /year-archive/
     
   - title: "Blog Posts"
-    url: /year-archive/
+    url: /talks/
     
   - title: "CV"
     url: /cv/
