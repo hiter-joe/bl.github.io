@@ -7,3 +7,20 @@
 
 ## FFT
 
+FFTs assume no missing data. Missing data destroys the symmetry that makes the "Fast" part of FFT work.
+
+You haven't indicated your purpose, but basically, your options are:
+
+1) Interpolate to fill the gaps before FFTing. If your gaps are
+irregular, this can be tedious; and you should do some tests with known
+data to evaluate the effects of the interpolation. For example, take a
+complete image with properties similar to your data and delete 5% of the
+data. Interpolate the gaps and then compare the FFTs of the original
+and interpolated images.
+
+2) Use a curve-fitting routine, such as REGRESS, to fit sines and
+cosines. (Least-squares fitting with sines and cosines is equivalent to
+the FFT when there is no missing data.) This is much slower than an
+FFT, but if your data size is not too large, you may not notice or care.
+If you know ahead of time that you only want to keep a few frequencies,
+then this could be as fast as an FFT.
