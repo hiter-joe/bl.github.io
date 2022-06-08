@@ -1,4 +1,5 @@
               For surface and subsurface domain.
+              For flow and solute transport
               The initial condition should be defined in restart files.
               
               <ParameterList name="initial condition" type="ParameterList">
