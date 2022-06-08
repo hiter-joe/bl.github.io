@@ -25,3 +25,4 @@ FFT, but if your data size is not too large, you may not notice or care.
 If you know ahead of time that you only want to keep a few frequencies,
 then this could be as fast as an FFT.
 ![image](https://user-images.githubusercontent.com/21980320/172716259-2962560f-a668-46eb-8736-99edaffa9e62.png)
+![image](https://user-images.githubusercontent.com/21980320/172716660-78a5bc18-0192-4ff2-836c-f06aa52067cd.png)
