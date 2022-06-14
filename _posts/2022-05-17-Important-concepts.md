@@ -19,3 +19,6 @@ permalink: /posts/2022/05/blog-post-Important hydraulic concepts/
   
 * water table: is the upper surface of zone of saturation/ is the surface where the water pressure head is equal to the atmospheric pressure. 
   (https://en.wikipedia.org/wiki/Water_table)
+* The driving force for transport of water in the unsaturated zone is the gradient of the hydraulic head, h, which includes a gravitational component, z, and a pressure component, p. H=z+p
+** z is the elevation of the point above the datum. h, the reference level for the pressure head componenet is the atmospheric pressure.
+(http://doc.mikepoweredbydhi.help/webhelp/2017/mikeshe/MIKE_SHE_online/UZ_TechnicalReference/Richards_Equation.htm)
