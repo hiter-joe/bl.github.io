@@ -54,4 +54,4 @@ Please let me know if there are mistakes in these instructions or questions.  Yo
 * crontab -e
 * 00 15 * * * bash /home/libi292/myscript.sh > mylog.log
 * Then in myscript.sh Type in: cd WDIR; source XXX; mpirun -n 1 ats XXX.xml > output.txt
-
+* More information can be found here. https://tecadmin.net/crontab-in-linux-with-20-examples-of-cron-schedule/
