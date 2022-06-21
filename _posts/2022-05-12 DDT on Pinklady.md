@@ -47,3 +47,11 @@ Sometime, it will be sh not bash. Therefore, you need to swith sh to bash. or cr
 *  Click Run
 
 Please let me know if there are mistakes in these instructions or questions.  You must source the env_ats_master.sh file as it sets correct environment variables.
+
+
+# Pinklady can not be run if we turn off the vpn.
+* so, we need to use crontab -e to create a job.
+* crontab -e
+* 00 15 * * * bash /home/libi292/myscript.sh > mylog.log
+* Then in myscript.sh Type in: cd WDIR; source XXX; mpirun -n 1 ats XXX.xml > output.txt
+
