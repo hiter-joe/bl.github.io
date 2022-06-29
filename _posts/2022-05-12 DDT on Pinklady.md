@@ -55,3 +55,12 @@ Please let me know if there are mistakes in these instructions or questions.  Yo
 * 00 15 * * * bash /home/libi292/myscript.sh > mylog.log
 * Then in myscript.sh Type in: cd WDIR; source XXX; mpirun -n 1 ats XXX.xml > output.txt
 * More information can be found here. https://tecadmin.net/crontab-in-linux-with-20-examples-of-cron-schedule/
+
+
+find the largest file in ubuntu
+du -sh * | sort -rh | head -5
+ls -lSh /bin | head -5
+find ./ -type f -exec du -sh {} \; |sort -h|tail -5
+du -ah /home | sort -h -r | head -n 5
+find $directory -type f -exec ls -s {} \; | sort -n | tail -n 5
+ 
