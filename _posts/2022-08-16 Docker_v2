@@ -1,0 +1,78 @@
+Docker
+* 它是目前最流行的 Linux 容器解决方案。
+
+* Docker 将应用程序与该程序的依赖，打包在一个文件里面。运行这个文件，就会生成一个虚拟容器。程序在这个虚拟容器里运行，就好像在真实的物理机上运行一样。有了 Docker，就不用担心环境问题.
+
+* 开发人员可以通过 Dockerfile (opens new window)来进行镜像构建，并结合 持续集成(Continuous Integration)
+
+* Docker 的主要用途，目前有三大类。
+
+**提供一次性的环境。**比如，本地测试他人的软件、持续集成的时候提供单元测试和构建的环境。
+**提供弹性的云服务。**因为 Docker 容器可以随开随关，很适合动态扩容和缩容。
+**组建微服务架构。**通过多个容器，一台机器可以跑多个服务，因此在本机就可以模拟出微服务架构
+
+* Docker 把应用程序及其依赖，打包在镜像（Image）文件里面。 Docker 镜像（Image），就相当于是一个 root 文件系统.
+
+* 分层存储的特征还使得镜像的复用、定制变的更为容易。甚至可以用之前构建好的镜像作为基础层，然后进一步添加新的层，以定制自己所需的内容，构建新的镜像
+
+* 镜像（Image）和容器（Container）的关系，就像是面向对象程序设计中的 类 和 实例 一样，镜像是静态的定义，容器是镜像运行时的实体。容器可以被创建、启动、停止、删除、暂停等。
+
+* 一个 Docker Registry 中可以包含多个仓库（Repository）；每个仓库可以包含多个标签（Tag）；每个标签对应一个镜像。
+
+* Command
+** docker image pull library/hello-world    #(group/name)
+** docker image ls
+step 1: create .dockerignor
+.git
+node_modules
+npm-debug.log
+# 这三个路径要排除，不要打包进入 image 文件。如果你没有路径要排除，这个文件可以不新建。
+step2: create Dockerfile
+
+FROM node:8.4
+COPY . /app
+WORKDIR /app
+RUN npm install --registry=https://registry.npm.taobao.org
+EXPOSE 3000
+FROM node:8.4：该 image 文件继承官方的 node image，冒号表示标签，这里标签是8.4，即 8.4 版本的 node。
+COPY . /app：将当前目录下的所有文件（除了.dockerignore排除的路径），都拷贝进入 image 文件的/app目录。
+WORKDIR /app：指定接下来的工作路径为/app。
+RUN npm install：在/app目录下，运行npm install命令安装依赖。注意，安装后所有的依赖，都将打包进入 image 文件。
+EXPOSE 3000：将容器 3000 端口暴露出来， 允许外部连接这个端口
+step3: 创建 image 文件
+$ docker image build -t koa-demo .
+# 或者
+$ docker image build -t koa-demo:0.0.1 .
+上面代码中，-t参数用来指定 image 文件的名字，后面还可以用冒号指定标签。如果不指定，默认的标签就是latest。最后的那个点表示 Dockerfile 文件所在的路径，上例是当前路径，所以是一个点。
+
+如果运行成功，就可以看到新生成的 image 文件koa-demo了。
+Step4：生成容器
+$ docker container run -p 8000:3000 -it koa-demo /bin/bash
+# 或者
+$ docker container run -p 8000:3000 -it koa-demo:0.0.1 /bin/bash
+
+-p参数：容器的 3000 端口映射到本机的 8000 端口。
+-it参数：容器的 Shell 映射到当前的 Shell，然后你在本机窗口输入的命令，就会传入容器。
+koa-demo:0.0.1：image 文件的名字（如果有标签，还需要提供标签，默认是 latest 标签）。
+/bin/bash：容器启动以后，内部第一个执行的命令。这里是启动 Bash，保证用户可以使用 Shell。
+
+# 在本机的另一个终端窗口，查出容器的 ID
+$ docker container ls
+
+# 停止指定的容器运行
+$ docker container kill [containerID]
+
+发布 image 文件
+
+$ docker login
+# 实例
+$ docker image tag [imageName] [username]/[repository]:[tag]
+$ Ex: docker tag testupdate lee1991joe/testupdate:latest
+
+$ docker image build -t [username]/[repository]:[tag] .
+$ Ex: docker image build -t lee1991joe/testupdate:latest .
+
+$ docker image push [username]/[repository]:[tag]
+$ Ex: docker image push lee1991joe/testupdate:latest
+https://towardsdatascience.com/how-to-run-jupyter-notebook-on-docker-7c9748ed209f
+Ref: https://dunwu.github.io/linux-tutorial/docker/docker-quickstart.html#%E7%94%9F%E6%88%90%E5%AE%B9%E5%99%A8
