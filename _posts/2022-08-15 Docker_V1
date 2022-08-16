@@ -1,0 +1,31 @@
+Enable Windows Subsystem for Linux 2
+To start using WSL2 or covert WSL distros to WSL2, use these steps:
+
+Download this WSL 2 kernel update (required).
+
+Double-click the wsl_update_x64.msi file and apply the update.
+
+Open Start.
+
+Search for PowerShell, right-click the top result, and select the Run as administrator option.
+
+Type the following command to set Windows Subsystem for Linux 2 your default architecture for new distros that you install, and press Enter:
+
+wsl --set-default-version 2
+
+(Optional) Type the following command to convert the distro from WSL to WSL 2 and press Enter:
+
+wsl --set-version Ubuntu 2
+
+
+Confirm distro platform
+To confirm distros are using the Windows Subsystem for Linux 2, use these steps:
+
+Open Start.
+
+Search for PowerShell, right-click the top result, and select the Run as administrator option.
+
+Type the following command to verify the version of the distro and press Enter:
+
+wsl --list --verbose
+Confirm the distro version is 2.
