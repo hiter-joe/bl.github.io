@@ -18,6 +18,10 @@ Education
 
 
 <img src="https://user-images.githubusercontent.com/21980320/185760122-e764de99-33ad-427e-9089-dee3d833caa4.gif" width="200" />
+<img src="https://user-images.githubusercontent.com/21980320/185761493-7dae5637-c795-4dfa-a640-df68ddbab4cc.png" width="200" />
+<img src="https://user-images.githubusercontent.com/21980320/185761556-084add62-10db-400c-87ff-0959cba83796.jpg" width="200" />
+
+
 
 Work experience
 ======
@@ -28,16 +32,19 @@ Work experience
   * Build computational pipeline for large-scale simulations in HPC environments;
   * Build custom-simulation capabilities for advanced modeling purposes using Python, C++ or other programming languages;
   * Collaborate with internal cross-functional research teams for data collection and processing
-
+<img src="https://user-images.githubusercontent.com/21980320/185761624-a995618d-5533-4249-8a70-e24652679187.png
+" width="200" />
 * 2021.09-11: Battery Modeling Intern V - Tech
   * Research Division at FM Global
   * Develop a battery thermal runaway and combustion module within a CFD code – FireFOAM;
   * Develop a mathematical framework for modeling battery thermal runaway and propagation;
   * Implement and verify the numerical model;
   * Couple the battery module with other submodules of the CFD code
-
+<img src="https://user-images.githubusercontent.com/21980320/185761624-a995618d-5533-4249-8a70-e24652679187.png
+" width="200" />
 
 * 2021.06-08: IT User Support Specialist
+
   * Institute for Computational and Data Science at PSU 
   * Resolving technical issues in using of the cyberinfrastructure;
   * Implementation of scientific application and utilization of Roar system;
