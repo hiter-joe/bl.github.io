@@ -12,4 +12,4 @@ location: "State college, US"
 * Implement several physical models into the library of OpenPINN, and increase the accuracy (98&\%&) and applicability of predictive models through algorithmic or architectural improvements;
 * Work with application domain and high performance computing experts to ensure the required model fidelity while optimizing model training and execution performance on HPC platforms.
 
-This is a description of your talk, which is a markdown files that can be all markdown-ified like any other post. Yay markdown!
+![PINN](https://user-images.githubusercontent.com/21980320/185768932-6743104f-d59a-4aa1-b89c-ec6432128e07.png)
