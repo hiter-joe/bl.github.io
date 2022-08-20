@@ -1,7 +1,14 @@
 ---
+layout: archive
 title: "About me"
-collection: portfolio
+permalink: /About me/
+author_profile: true
+redirect_from:
+  - /resume
 ---
+
+{% include base_path %}
+
 * 173cm/72kg
 * Personality: Architect (INTJ)
 * 优点：耐心、勤奋、心思细腻、脾气不错、体贴。
