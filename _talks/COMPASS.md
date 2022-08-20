@@ -8,7 +8,7 @@ date: 2022-03-01
 location: "Seattle WA, USA"
 ---
 
-[More information here](http://exampleurl.com)
+
 
 Coastal Observations, Mechanisms, and Predictions Across Systems and Scales.
 * Coordinate and work with other analysts to integrate module models into larger system assemblies
@@ -19,3 +19,4 @@ Coastal Observations, Mechanisms, and Predictions Across Systems and Scales.
 
 ![image](https://user-images.githubusercontent.com/21980320/185762114-54bc78cd-5457-4ed1-91c4-ffefba0e1d3d.png)
 ![image (3)](https://user-images.githubusercontent.com/21980320/185762361-2b7bfc6b-6175-4c11-8f17-a98551e57965.png)
+[More information here](http://exampleurl.com)
