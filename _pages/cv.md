@@ -17,7 +17,7 @@ Education
 * Ph.D Civil and Environmental Engineering, The Pennsylvania State University, USA, 2021
 
 
-##<img src="https://user-images.githubusercontent.com/21980320/185760122-e764de99-33ad-427e-9089-dee3d833caa4.gif" width="200" />
+%<img src="https://user-images.githubusercontent.com/21980320/185760122-e764de99-33ad-427e-9089-dee3d833caa4.gif" width="200" />
 
 Work experience
 ======
