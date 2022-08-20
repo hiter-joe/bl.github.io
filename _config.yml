@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Bing Li"
   avatar           : "profile.jpg"
-  bio              : "Postdoc @PNNL"
-  location         : "Richland, WA"
-  employer         :
+  bio              : "Born in Shandong, China"
+  location         : "Bellevue, WA"
+  employer         : "Postdoc @PNNL"
   googlescholar    : "https://scholar.google.com/citations?user=Md_6je0AAAAJ&hl=en"
   email            : "bing.li@pnnl.gov"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -113,6 +113,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+
 
 
 # Reading Files
