@@ -17,7 +17,7 @@ Education
 * Ph.D Civil and Environmental Engineering, The Pennsylvania State University, USA, 2021
 
 
-<img src="https://user-images.githubusercontent.com/21980320/185760122-e764de99-33ad-427e-9089-dee3d833caa4.gif" width="200" /><img src="https://user-images.githubusercontent.com/21980320/185761493-7dae5637-c795-4dfa-a640-df68ddbab4cc.png" width="200" /><img src="https://user-images.githubusercontent.com/21980320/185761556-084add62-10db-400c-87ff-0959cba83796.jpg" width="200" />
+<img src="https://user-images.githubusercontent.com/21980320/185760122-e764de99-33ad-427e-9089-dee3d833caa4.gif" width="200" /><img src="https://user-images.githubusercontent.com/21980320/185761493-7dae5637-c795-4dfa-a640-df68ddbab4cc.png" width="200" /><img src="https://user-images.githubusercontent.com/21980320/185761556-084add62-10db-400c-87ff-0959cba83796.jpg" width="300" />
 
 
 
@@ -37,7 +37,8 @@ Work experience
   * Develop a mathematical framework for modeling battery thermal runaway and propagation;
   * Implement and verify the numerical model;
   * Couple the battery module with other submodules of the CFD code
-<img src="https://user-images.githubusercontent.com/21980320/185761624-a995618d-5533-4249-8a70-e24652679187.png" width="200" />
+<img src="https://user-images.githubusercontent.com/21980320/185761696-c15fcf3a-2cac-4e80-99e4-476f3616b936.jpg" width="200" />
+
 
 * 2021.06-08: IT User Support Specialist
 
