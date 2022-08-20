@@ -15,8 +15,9 @@ Education
 * M.E. Design and Manufacture of ship and Ocean Structure, Dalian University of Technology, China, 2017
 * Ph.D student in Engineering Science and Mechanics, The Pennsylvania State University, USA, 2018
 * Ph.D Civil and Environmental Engineering, The Pennsylvania State University, USA, 2021
-![alt text]([http://url/to/img.png](https://en.wikipedia.org/wiki/Harbin_Institute_of_Technology#/media/File:Harbin_Institute_of_Technology_(crest).gif))
- 
+
+ ![hit](https://user-images.githubusercontent.com/21980320/185760122-e764de99-33ad-427e-9089-dee3d833caa4.gif)
+
 
 Work experience
 ======
