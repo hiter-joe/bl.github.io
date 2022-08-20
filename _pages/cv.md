@@ -49,6 +49,7 @@ Work experience
   * Installing, testing, and administering applications on Roar system;
   * Assist with technical documentation of system and processes;
   * Resolve account and access-related issues.
+  * 
 <img src="https://user-images.githubusercontent.com/21980320/185761840-ad063827-c1a9-409e-ad06-e8fbae2d2965.jpg" width="400" />
 
 
