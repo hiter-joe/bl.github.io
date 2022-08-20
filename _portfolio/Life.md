@@ -13,4 +13,4 @@ collection: portfolio
 * 不接受长时间异地
 
 
-![IMG_E6653](https://user-images.githubusercontent.com/21980320/185765725-afd2042f-066b-4b7f-9aba-b030f2562b2d.JPG)
+<img src="https://user-images.githubusercontent.com/21980320/185765725-afd2042f-066b-4b7f-9aba-b030f2562b2d.JPG" width="320" />
