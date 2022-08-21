@@ -29,3 +29,15 @@ example:
 a. Set concentrations within the Initial and Inlet constraints.
 b. Run PFLOTRAN: $PFLOTRAN_DIR/src/pflotran/pflotran
 c. Plot the results in Excel or matplotlib (reaction_sandbox_simple.py).
+
+
+
+# Pflotran_short_course
+PFLOTRAN provides conventional chemical reaction capability
+* aqueous specication
+* general (A+B<->C)
+* Mineral precipitation-dissolution
+* microbiological
+* radioactive decay with daughter products
+* sorption
+* 
