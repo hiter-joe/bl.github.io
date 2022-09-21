@@ -15,11 +15,11 @@
 # Reaction sandbox
 * Many PFLOTRAN users have asked for a means of implementing custom kinetic rate expressions for chemistry. The reaction sandbox fulfills this purpose by isolating PFLOTRAN’s chemistry and providing a simplified reaction framework within which the researcher may quickly implement a kinetic reaction without completely learning/understanding PFLOTRAN’s reaction process model. The reaction sandbox also serves as a tool for testing kinetic reactions prior to acceptance and integration within the code.
 * Steps to use the reaction sandbox
-step1: copy and rename the source file reaction_sandbox_example.F90
-step2: rename the module, reaction class, and module procedures
-step3: add variables to the reaction class as needed.
-step4: populate module procedures with code that created, reads, initializes, evaluates, and destroys the reaction class.
-step5: add the new reaction class to the reaction sandbox's linked list.
+* step1: copy and rename the source file reaction_sandbox_example.F90
+* step2: rename the module, reaction class, and module procedures
+* step3: add variables to the reaction class as needed.
+* step4: populate module procedures with code that created, reads, initializes, evaluates, and destroys the reaction class.
+* step5: add the new reaction class to the reaction sandbox's linked list.
 
 example:
 1. clone the pflotran code repository from Bitbucket
@@ -30,8 +30,8 @@ a. Set concentrations within the Initial and Inlet constraints.
 b. Run PFLOTRAN: $PFLOTRAN_DIR/src/pflotran/pflotran
 c. Plot the results in Excel or matplotlib (reaction_sandbox_simple.py).
 
-
-
+https://www.pflotran.org/documentation/user_guide/how_to/installation/linux.html
+https://www.osti.gov/servlets/purl/1645365
 # Pflotran_short_course
 PFLOTRAN provides conventional chemical reaction capability
 * aqueous specication
