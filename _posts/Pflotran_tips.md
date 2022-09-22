@@ -20,7 +20,8 @@
 * step3: add variables to the reaction class as needed.
 * step4: populate module procedures with code that created, reads, initializes, evaluates, and destroys the reaction class.
 * step5: add the new reaction class to the reaction sandbox's linked list.
-
+* step6: generate .mod using python file
+* step7: make pflotran/make clean
 example:
 1. clone the pflotran code repository from Bitbucket
 2. creat a new reaction network within subrountine SimpleReact() in $PFLOTRAN_DIR/src/pflotran/reaction_sandbox_simple.F90
