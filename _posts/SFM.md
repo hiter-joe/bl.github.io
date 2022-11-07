@@ -1,0 +1,26 @@
+---
+title: 'Structure from motion'
+date: 2022-11-06
+permalink: /posts/2022/11/blog-post-1/
+tags:
+  - cool posts
+  - category1
+  - category2
+---
+
+Structure from motion (SfM)[1] is a photogrammetric range imaging technique for estimating three-dimensional structures from two-dimensional image 
+sequences that may be coupled with local motion signals. It is studied in the fields of computer vision and visual perception. In biological vision, 
+SfM refers to the phenomenon by which humans (and other living creatures) can recover 3D structure from the projected 2D (retinal) motion field of 
+a moving object or scene.
+
+---
+Structure-from-motion photogrammetry with multi-view stereo provides hyperscale landform models using images acquired from a range of digital cameras 
+and optionally a network of ground control points. The technique has been applied in many settings such as rivers,[20] badlands,[21] sandy coastlines,[22][23] 
+fault zones,[24] landslides,[25] and coral reef settings.[26] SfM has been also successfully applied for the assessment of large wood accumulation volume[27] 
+and porosity[28] in fluvial systems, as well as for the characterization of rock masses through the determination of some properties as the orientation, 
+persistence, etc. of discontinuities.[29][30] A full range of digital cameras can be utilized, including digital SLR's, compact digital cameras and even 
+smart phones. Generally though, higher accuracy data will be achieved with more expensive cameras, which include lenses of higher optical quality. The 
+technique therefore offers exciting opportunities to characterize surface topography in unprecedented detail and, with multi-temporal data, to detect 
+elevation, position and volumetric changes that are symptomatic of earth surface processes. Structure from motion can be placed in the context of other 
+digital surveying methods. (https://en.wikipedia.org/wiki/Structure_from_motion)
+---
