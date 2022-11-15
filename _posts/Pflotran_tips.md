@@ -40,5 +40,8 @@ PFLOTRAN provides conventional chemical reaction capability
 * Mineral precipitation-dissolution
 * microbiological
 * radioactive decay with daughter products
-* sorption
-* 
+* sorption 
+
+
+* cd pflotran/shortcourse/Reaction_Sandbox_Ncycle_Jianqiu\ formulation/
+* sudo ../../src/pflotran/pflotran -pflotranin reaction_sandbox_Ncycle_batch.in
