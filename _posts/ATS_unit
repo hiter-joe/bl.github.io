@@ -1,3 +1,8 @@
+# ATS raw output units are mol/s
+# Convert to m3/s by dividing by the molar density of the solution 
+unit_convert_flow = 1.8e-5
+
+
 plt.rcParams['figure.figsize'] = [10, 5]
 path='./hillslope_test_initial_condition/'
 #BTC_1 = np.loadtxt(path+'surface_total_concentration_crunch.dat', skiprows=12) 
