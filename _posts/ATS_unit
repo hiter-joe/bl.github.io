@@ -1,3 +1,13 @@
+    <ParameterList name="source terms">
+        <ParameterList name="geochemical" type="ParameterList">
+          <ParameterList name="Tracer injection" type="ParameterList">
+            <Parameter name="regions" type="Array(string)" value="{surface domain}" />
+            <Parameter name="solutes" type="Array(string)" value="{C5H7O2N(aq), CH2O(aq), CO2(aq), N2(aq), NH4+, NO2-, NO3-, O2(aq)}" />
+            <Parameter name="times" type="Array(double)" value="{0.0,8640000.0}" />
+            <Parameter name="geochemical conditions" type="Array(string)" value="{rain, rain}" />
+            <Parameter name="time functions" type="Array(string)" value="{constant}" />
+            <Parameter name="ats units [moles/m^3]" type="bool" value="true" />
+
 # ATS raw output units are mol/s
 # Convert to m3/s by dividing by the molar density of the solution 
 unit_convert_flow = 1.8e-5
