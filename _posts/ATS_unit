@@ -1,0 +1,31 @@
+plt.rcParams['figure.figsize'] = [10, 5]
+path='./hillslope_test_initial_condition/'
+#BTC_1 = np.loadtxt(path+'surface_total_concentration_crunch.dat', skiprows=12) 
+#FREE_1 = np.loadtxt(path+'surface_free_ion_species_crunch.dat', skiprows=12) 
+BTC_1 = np.loadtxt(path+'surface_total_concentration_pflotran.dat', skiprows=12) 
+FREE_1 = np.loadtxt(path+'surface_free_ion_species_pflotran.dat', skiprows=12) 
+# ATS raw output unit: mol-species/mol-water in surface_total_concentration_crunch.dat
+# Convert to micromole per liter
+unit_convert_transport = 55.55e6
+plt.rcParams['figure.figsize'] = [10, 5]
+#plt.plot(BTC_1[:,0]/86400, BTC_1[:,1]*unit_convert_transport, 'y-',BTC_1[:,2]*unit_convert_transport, 'g-',BTC_1[:,3]*unit_convert_transport, 'b-', BTC_1[:,0]/86400, BTC_1[:,4]*unit_convert_transport, 'r-')
+#plt.plot(BTC_1[:,0]/86400, BTC_1[:,1]*unit_convert_transport, 'y-',BTC_1[:,2]*unit_convert_transport, 'g-',
+       #  BTC_1[:,3]*unit_convert_transport, 'b-', BTC_1[:,0]/86400, BTC_1[:,4]*unit_convert_transport, 'r-', BTC_1[:,5]*unit_convert_transport, 'y-.'
+       # , BTC_1[:,6]*unit_convert_transport, 'g-.', BTC_1[:,7]*unit_convert_transport, 'b-.', BTC_1[:,8]*unit_convert_transport, 'r-.')
+plt.plot(BTC_1[:,0]/86400, BTC_1[:,1]*unit_convert_transport, 'y-',BTC_1[:,2]*unit_convert_transport, 'g-',
+         BTC_1[:,3]*unit_convert_transport, 'b-', BTC_1[:,0]/86400, BTC_1[:,4]*unit_convert_transport, 'r-', BTC_1[:,5]*unit_convert_transport, 'y-.'
+        , BTC_1[:,6]*unit_convert_transport, 'g-.', BTC_1[:,7]*unit_convert_transport, 'b-.')
+
+plt.title("Concentration Breakthrough Curves at Hillslope Toe (surface)", fontsize=20)
+plt.xlabel("Time (d)",fontsize=16)
+plt.ylabel("Concentration (\u03BC mol/L)",fontsize=16)
+plt.xticks([0,25,50,75,100,125,150,175],fontsize=16)
+plt.yticks(fontsize=16)
+#plt.legend(['H+','HCO3-','Ca++', 'Tracer1'], fontsize=16, loc='lower right')
+#plt.legend(['5H7O2N(aq)', 'CH2O(aq)', 'CO2(aq)', 'N2(aq)'], fontsize=16, loc='lower right')
+#plt.legend(['5H7O2N(aq)', 'CH2O(aq)', 'CO2(aq)', 'N2(aq)', 'NH4+', 'NO2-', 'NO3-', 'O2(aq)'], fontsize=16, loc='lower right')
+plt.legend(['Na+','Ca++','Mg++','H+','HCO3-','Cl-','Tracer'], fontsize=16, loc='lower right')
+
+#plt.yscale('log')
+plt.savefig('Hillslope.png')
+plt.show()
