@@ -31,3 +31,26 @@ These are examples of the equations that can be used to model evaporation and tr
 
 
 
+
+
+
+
+
+The Priestley-Taylor equation is a method for estimating transpiration from vegetation. It is based on the assumption that transpiration is driven by the energy available for vaporization, rather than by the stomatal conductance of the leaves. The equation was developed by Priestley and Taylor in 1972 and is based on the idea that transpiration is controlled by the availability of energy for vaporization, rather than by the stomatal conductance of the leaves.
+
+The Priestley-Taylor equation is written as:
+
+T = (1 + alpha) * (Rn - G) / lambda
+
+Where:
+T = transpiration rate (mm/day)
+Rn = net radiation (W/m^2)
+G = soil heat flux (W/m^2)
+alpha = Priestley-Taylor coefficient
+lambda = latent heat of vaporization (J/kg)
+
+The Priestley-Taylor coefficient, alpha, is a dimensionless parameter that is used to adjust the equation to account for the effects of atmospheric pressure, air temperature, and wind speed on transpiration. It's usually estimated by using data from experiments or field measurements.
+
+The Priestley-Taylor equation is widely used in many terrestrial ecosystem models, it is simple and easy to implement but it's not as accurate as other models that take into account other factors such as canopy conductance and leaf area index.
+
+It's also worth noting that vegetation models use different approaches and models to estimate transpiration, and the Priestley-Taylor equation is just one of the many models available.
