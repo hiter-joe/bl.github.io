@@ -54,3 +54,33 @@ The Priestley-Taylor coefficient, alpha, is a dimensionless parameter that is us
 The Priestley-Taylor equation is widely used in many terrestrial ecosystem models, it is simple and easy to implement but it's not as accurate as other models that take into account other factors such as canopy conductance and leaf area index.
 
 It's also worth noting that vegetation models use different approaches and models to estimate transpiration, and the Priestley-Taylor equation is just one of the many models available.
+
+
+
+
+
+The Penman-Monteith equation is a widely used method to estimate evapotranspiration (ET), which is the combined loss of water from the soil and vegetation due to evaporation and transpiration. It was developed by Penman and Monteith in 1948 and it is based on the balance between the energy available to evaporate water and the energy lost through the process of transpiration.
+
+The Penman-Monteith equation is written as:
+
+ET = (Rn - G) / (rho * lambda) + (1 + gamma) * (es - ea) / (rho * lambda)
+
+Where:
+ET = evapotranspiration rate (mm/day)
+Rn = net radiation (W/m^2)
+G = soil heat flux (W/m^2)
+rho = air density (kg/m^3)
+lambda = latent heat of vaporization (J/kg)
+gamma = psychrometric constant (kPa/°C)
+es = saturation vapor pressure (kPa)
+ea = actual vapor pressure (kPa)
+
+The Penman-Monteith equation takes into account several meteorological factors such as net radiation, air temperature, wind speed, relative humidity and atmospheric pressure, as well as the stomatal conductance of the vegetation.
+
+It's widely used and accepted as the reference method for ET estimation by many international organizations such as the FAO, it's considered as a robust and reliable method to estimate ET but it's relatively complex and requires a lot of data inputs.
+
+It's also worth noting that there are other methods to estimate ET, the Penman-Monteith is one of the most widely used and accepted method but it's not the only one.
+
+
+
+
