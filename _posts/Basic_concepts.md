@@ -11,3 +11,20 @@ Sea level refers to the average height of the surface of the ocean with respect 
 Sea level rise is one of the most well-known sea level pattern and it is caused by global warming and the thermal expansion of seawater as it warms and by the melting of ice sheets and glaciers. Sea level rise can have significant impacts on coastal communities and infrastructure.
 
 Another sea level pattern is the tide which is caused by the gravitational pull of the Moon and the Sun on the Earth's oceans. Tidal patterns repeat every lunar day (about 24 hours and 50 minutes) and are affected by the shape of the coastline, ocean currents and the weather.
+
+
+There are several processes that can affect the carbon in soil, including:
+
+Photosynthesis: plants take in carbon dioxide from the air and store it in their tissues, which can then be added to the soil when the plants die and decompose.
+
+Decomposition: microorganisms in the soil break down organic matter, releasing carbon dioxide and other compounds back into the atmosphere.
+
+Soil erosion: when soil is washed away or blown away by wind, the carbon stored in that soil is also lost.
+
+Land use change: converting natural land to agricultural or urban use can result in the loss of soil carbon.
+
+Forest fires, volcanic eruptions, and other natural events can cause a rapid release of carbon stored in soil.
+
+Human activities such as tillage, burning and deforestation can also affect carbon in soil.
+
+Climate change can also affect soil carbon through changes in temperature and precipitation patterns.
