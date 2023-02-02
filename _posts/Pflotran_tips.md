@@ -32,7 +32,10 @@ b. Run PFLOTRAN: $PFLOTRAN_DIR/src/pflotran/pflotran
 c. Plot the results in Excel or matplotlib (reaction_sandbox_simple.py).
 
 https://www.pflotran.org/documentation/user_guide/how_to/installation/linux.html
+
 https://www.osti.gov/servlets/purl/1645365
+
+
 # Pflotran_short_course
 PFLOTRAN provides conventional chemical reaction capability
 * aqueous specication
