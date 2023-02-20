@@ -1,0 +1,5 @@
+A lacustuary is a transitional zone between a lake and an estuary where freshwater and saltwater mix. It occurs where a river or stream enters a lake, causing the lake's water level to rise and the salinity to decrease. A lacustuary may have features similar to both a lake and an estuary, such as wetlands and marshes, and it can support unique ecosystems and biodiversity.
+
+An estuary, on the other hand, is a partially enclosed coastal body of water where freshwater from rivers and streams mixes with saltwater from the ocean. Estuaries are typically characterized by a fluctuating salinity level and are highly productive ecosystems, supporting a variety of plants and animals, including many commercially important species of fish and shellfish. Estuaries are also important for water filtration, erosion control, and recreational activities such as boating and fishing.
+
+In summary, while both lacustuaries and estuaries are transitional aquatic environments, a lacustuary is a transitional zone between a lake and an estuary, and an estuary is a coastal body of water where freshwater and saltwater mix.
