@@ -1,0 +1,5 @@
+Surface overland conductivity refers to the ability of a material or surface to conduct an electric current over its surface. In the context of overland flow, which is the movement of water over the ground surface during rainfall events, surface overland conductivity plays an important role in determining the rate of flow and the amount of erosion and sediment transport that occurs.
+
+The conductivity of a surface depends on various factors such as the type of material, its texture, and the presence of any organic matter or other contaminants on its surface. Conductivity is typically measured in units of siemens per meter (S/m) and can be quantified through various field and laboratory techniques.
+
+In natural environments, the conductivity of the surface can be influenced by a variety of factors, including the presence of vegetation, soil moisture content, and the topography of the landscape. Understanding the surface overland conductivity is important for predicting and managing the movement of water over the ground surface, especially in areas prone to flooding or erosion.
