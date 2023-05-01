@@ -7,3 +7,4 @@
  python bin/run_ww_lab.py -p=9999 --pull --ats --data-library=/Users/libi292/watershed-workflow/data_library /Users/libi292    
  
  remember to choose the enviroments
+![Uploading image.png…]()
